@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hedgehog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@400;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+       
+        <section class="cover">
+            <header class="header">
+                <div class="header__container">
+                    <div class="header__burger"></div>
+                    <a class="header__logo" href="https://www.hedgehog.ru/" target="_blank"><img class="header__logo-img" src="./images/Logo.svg" alt="Eziki"> </a>
+
+                   <nav class="header__nav">
+                    <a class="header__nav-link" href="#">Каталог</a>
+                    <a class="header__nav-link" href="#">о нас</a>
+                    <a class="header__nav-link" href="#">контакты</a>
+                    <a class="header__nav-link" href="#">галерея</a>
+                   </nav>
+                   
+                   <div class="phone">
+                    <div class="phone__logo"></div>
+                    <p class="phone__num">+7 (965) 569-89-98</p>
+                   </div>
+                   <div class="basket"></div>
+                </div>
+            </header>
+            <div class="cover__content">
+                <div class="cover__texts">
+                    <div class="cover__text-img"></div>
+                    <h3 class="cover__text-heading">тоже любят молоко</h3>
+                    <p class="cover__text-paragraph">Заведите себе ёжика. Он всегда выслушает, не будет мяукать в 5 утра и царапать вашу мебель.</p>
+                    <button class="cover__button">Купить ёжика</button>
+                </div>
+                <div class="cover__icons">
+                    <div class="cover__icon">
+                        <div class="cover__icon-hedgehog cover__icon-background"></div>
+                        <h4 class="cover__icon-heading">разведение ежиков</h4>
+                        <p class="cover_icon-text">Собственная ферма, уход и содержание</p>
+                    </div>
+
+                    <div class="cover__icon">
+                        <div class="cover__icon-health cover__icon-background"></div>
+                        <h4 class="cover__icon-heading">здоровье</h4>
+                        <p class="cover_icon-text">Всегда прививаем и вовремя обследуем ваших будущих питомцев</p>
+                    </div>
+
+                    <div class="cover__icon">
+                        <div class="cover__icon-love cover__icon-background"></div>
+                        <h4 class="cover__icon-heading">любовь и забота</h4>
+                        <p class="cover_icon-text">Каждому ежику мы дарим много внимания</p>
+                    </div>
+
+                </div>
+
+
+                </div>
+
+
+
+            
+            <div class="cover__eclipse"></div>
+            <div class="cover__eclipse2"></div>
+            <div class="cover__img"></div>
+            <div class="cover__img2"></div>
+
+           
+
+        </section>
+
+        <section class="cards">
+            <!-- <div class="cards__wrapper"> -->
+                <div class="card">
+                    <div class="card__background">
+                        <img class="card__img" src="images/hedgehog_card1.svg" alt="">
+                    </div>
+                    <div class="card__wrapper">
+                        <h5 class="card__title">Ежик “Евгений”</h5>
+                        <p class="card__subtitle">Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение </p>
+                        <div class="card__price">
+                            <p class="card__pice-sale">5 000 ₽</p>
+                            <p class="card__pice-value">2 500 ₽</p>
+
+                    </div>
+                    
+                    </div>
+                    <div class="card__sale"><span class="card__sale-text">-50 %</span></div>
+                    <div class="card__info"></div>
+                    <div class="card__add"></div>
+                    
+
+                </div>
+                <div class="card">
+                    <div class="card__background card-bg2">
+                         <img class="card__img" src="images/hedgehog_card2.svg" alt="">
+                    </div>
+                     <div class="card__wrapper">
+                        <h5 class="card__title">Ежик “Евгений”</h5>
+                        <p class="card__subtitle">Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение </p>
+                        <div class="card__price">
+                            <p class="card__pice-sale">5 000 ₽</p>
+                            <p class="card__pice-value">2 500 ₽</p>
+                    </div>
+                    
+                    </div>
+                    <div class="card__sale"><span class="card__sale-text">-50 %</span></div>
+                    <div class="card__info"></div>
+                    <div class="card__add"></div>
+                   
+                </div>
+            <!-- </div> -->
+        </section>
+
+        <section class="buy">
+            <h4 class="buy__title">Заполните заявку и мы забронируем для Вас нового друга</h4>
+            <form class="form" action="">
+                <div class="form__wrapper">
+                    <div>
+                        <div class="radiobtn">
+                            <input type="radio" id="forMe"
+                                             name="forWho" value="forMe" checked />
+                            <label for="forMe">хочу ёжика для себя</label>
+                          </div>
+                          <div class="radiobtn">
+                            <input type="radio" id="forChild"
+                                             name="forWho" value="forChild" />
+                            <label for="forChild">хочу ёжика для детей</label>
+                          </div>
+                          <div class="radiobtn">
+                            <input type="radio" id="forFarm"
+                                             name="forWho" value="forFarm" />
+                            <label for="forFarm">хочу ёжика для разведения</label>
+                          </div>
+                    </div>
+                    
+                    <div class="form_radio">
+                        <div class="form_radio-select">
+                            <input id="choice1" type="radio" value="Choice1" name="howMuch" checked>
+                            <label class="form_radio-text" for="choice1">Мне нужен 1-2 ёжика</label>
+                        </div>
+                        <div class="form_radio-select">
+                            <input id="choice2" type="radio" value="Choice2" name="howMuch">
+                            <label  class="form_radio-text" for="choice2">Мне нужны 3-4 ёжика</label>
+                        </div>
+                        <div class="form_radio-select">
+                            <input id="choice3" type="radio" value="Choice3" name="howMuch">
+                            <label  class="form_radio-text" for="choice3">Мне нужны 3 и более ёжиков</label>
+                        </div>
+                        <div class="form_radio-select">
+                            <input id="choice4" type="radio" value="Choice4" name="howMuch">
+                            <label  class="form_radio-text" for="choice4">Пока присматриваюсь</label>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+               
+                   
+               
+                <div class="form__wrapper-inputs">
+                    <input class="form__input" type="text" placeholder="Ваше имя">
+                    <input class="form__input"  type="text" placeholder="Ваш телефон">
+                    <input class="form__input"  type="text" placeholder="Ваш e-mail">
+                    <input class="form__input form__input-full"  type="text" placeholder="Комментарий к заявке">
+                </div>
+
+             
+
+                <button class="form__button">Купить ёжика</button>
+            </form>
+
+        </section>
+
+
+        <section class="oportunity">
+            <div class="oportunity__block">
+                <img class="oportunity__img" src="./images/hedgehof__black.svg" alt="Eziki"> 
+            <p class="oportunity__text">У на осталось еще: <span class="oportunity__text-underline">25 ёжиков</span></p>
+            </div>
+            
+            <p class="oportunity__hurry">Торопитесь! Акция <br> действует до 26. 02. 2023</p>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__wrapper">
+            <a class="footer__logo" href="https://www.hedgehog.ru/" target="_blank"><img class="footer__logo-img" src="./images/footer__logo.svg" alt="Eziki"> </a>
+
+            <div class="footer__links">
+
+                <nav class="footer__nav">
+                    <a class="footer__nav-link" href="#">Каталог</a>
+                    <a class="footer__nav-link" href="#">о нас</a>
+                    <a class="footer__nav-link" href="#">контакты</a>
+                    <a class="footer__nav-link" href="#">галерея</a>
+                   </nav>
+
+                   <div class="footer__socials">
+                    <a class="footer__social" href="https://www.hedgehog.ru/" target="_blank"><img class="footer__logo-social" src="./images/insta.svg" alt="Eziki"> </a>
+                    <a class="footer__social" href="https://www.hedgehog.ru/" target="_blank"><img class="footer__logo-social" src="./images/facebook.svg" alt="Eziki"> </a>
+                    <a class="footer__social" href="https://www.hedgehog.ru/" target="_blank"><img class="footer__logo-social" src="./images/twitter.svg" alt="Eziki"> </a>
+                   </div>
+                   
+
+
+                   <p class="footer__phone">+7 (965) 569-89-98</p>
+            </div>
+               
+
+            </div>
+            
+               
+
+
+
+                   <p class="footer__copyright">Все права защищены. <br>
+                    Указанная стоимость товаров и условия их приобретения действительны на текущую дату.</p>
+    
+        </footer>
+    </div>
+    <div class="popup popup-menu" id="menu">
+        <div class="popup__content-menu">
+        <div class="popup__menu-head">
+            <img src="images/x.svg"кнопка закытия попапа" class="popup__close popup__menu-close" />
+            <a class="header__logo header__logo-mob" href="https://www.hedgehog.ru/" target="_blank"><img class="header__logo-img" src="./images/Logo.svg" alt="Eziki"> </a>
+        </div>
+        <nav class="popup__menu-items">
+          
+            <a class="popup__menu-link" href="#">Каталог</a>
+         
+        
+            <a class="popup__menu-link header__mob-article" href="#">о нас</a>
+       
+            <a class="popup__menu-link header__mob-article" href="#">контакты</a>
+        
+            <a class="popup__menu-link header__mob-article" href="#">галерея</a>
+          
+        </nav>
+      
+            <p class="popup__phone">
+                +7 (965) 569-89-98
+            </p>
+         
+          
+        
+      </div>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
